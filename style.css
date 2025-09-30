@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lavishly+Yours&display=swap');
 :root{
---ou-crimson: #880d1eff;
---rusty-red: #dd2d4aff;
---bright-pink-crayola: #f26a8dff;
---amaranth-pink: #f49cbbff;
+--ou-carmesim: #880d1eff;
+--vermelho-enferrujado: #dd2d4aff;
+--giz-de-cerarosa-brilhante: #f26a8dff;
+--rosa-amarelo: #f49cbbff;
+--title:"Lavishly Yours", cursive;
+--text:"Henny Penny", system-ui;
+}
 
+body{
+    background: var(--ou-carmesim);
+    font-family: var(--text);
 }
