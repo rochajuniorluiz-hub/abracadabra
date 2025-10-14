@@ -5,7 +5,7 @@
 --giz-de-cerarosa-brilhante: #f26a8dff;
 --rosa-amarelo: #f49cbbff;
 --title:"Lavishly Yours", cursive;
---text:"Henny Penny", system-ui;
+--text: "Henny Penny", system-ui;
 }
 
 body{
@@ -16,4 +16,28 @@ body{
     justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+button{
+    background-color: var(--rosa-amarelo);
+    color: var(--branco);
+    padding: 10px;
+    border: 2px solid var(--branco)
+    font-size 20px
+    margin 5px;
+}
+
+button:hover{
+    background-color: var(--giz-de-cerarosa-brilhante);
+    color: var(--vermelho-enferrujado);
+    transition: 0.5s;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 2px #000;
+}
+
+main{
+    margin: 40px 20px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 28px;
 }
